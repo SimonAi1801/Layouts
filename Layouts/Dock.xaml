@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
-        Title="Dock" Height="450" Width="800">
+        Title="Dock" Height="400" Width="400">
     <DockPanel>
         <Button DockPanel.Dock="Top" HorizontalAlignment="Stretch" Content="Top 1" FontSize="20"></Button>
         <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" Content="Bottom 1" FontSize="20"></Button>
