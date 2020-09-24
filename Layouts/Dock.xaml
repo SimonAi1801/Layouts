@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
         Title="Dock" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Stretch" Content="Top 1" FontSize="20"></Button>
+        <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" Content="Bottom 1" FontSize="20"></Button>
+        <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" Content="Bottom 2" FontSize="20"></Button>
+        <Button DockPanel.Dock="Left"  Content="Left" FontSize="20"/>
+        <Button DockPanel.Dock="Right" Content="Right 1" FontSize="20"/>
+        <Button DockPanel.Dock="Top" HorizontalAlignment="Stretch" Content="Top 2" FontSize="20"></Button>
+        <Button DockPanel.Dock="Right" Content="Right 2" FontSize="20"></Button>
+        <Button Content="Center" FontSize="20"></Button>
+    </DockPanel>
 </Window>
